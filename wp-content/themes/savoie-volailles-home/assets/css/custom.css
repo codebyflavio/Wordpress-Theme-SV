@@ -1,0 +1,112 @@
+#backgroundSlide{
+    width: 100%;
+    min-height: 600px;
+    /* Set the height to match that of the viewport. */
+    height: 100vh;
+
+    /* Set the width to match that of the viewport. */
+    width: 100vw;
+}
+.navbar-fixed-top{
+    top: auto;
+}
+.store{
+    padding-right: 10px;
+    padding-top: 10px;
+    display: block;
+}
+.arch-service-1{
+    background: none;
+}
+.arch-service-2{
+    background: none;
+}
+.arch-service-3{
+    background: none;
+}
+.arch-service-4{
+    background: none;
+}
+.img-store{
+    width: 100%;
+}
+.arch-service-in {
+    padding: 10px;
+}
+#store-title{
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+#store-horaire{
+    font-weight: 400;
+    font-size: 15px;
+    color: #cccccc;
+}
+.arch-service-in p{
+    font-size: 15px;
+    color: white;
+}
+.map-wrapper{
+    height: 300px;
+    margin-bottom: 30px;
+}
+.map_modal {
+    height: 100%;
+}
+.modal-body p {
+    color: white;
+    text-align: left;
+    font-size: x-large;
+    font-weight: 300;
+}
+[data-icon]:before{
+    font-size: x-large;
+}
+.modal-bot{
+    text-align: left;
+    color: red;
+}
+#modal-h2{
+    color: white;
+}
+.team-section .owl-carousel-v4 .owl-small{
+    color: #e74c3c;
+}
+.team-section .owl-carousel-v4 .owl-small-2{
+    color: #9797a2;
+}
+.slide-btn, .slide-btn:visited{
+    border: solid 4px;
+    color: #fff;
+    background: rgba(236, 49, 49, 0.23);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 5em;
+    padding: 7px;
+}
+.main-slide-inner{
+    width: 50%;
+    height: 50%;
+    padding-top: 500px;
+    padding-left: 50%;
+}
+.slide-h1{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+}
+.architecture-nav .navbar-toggle {
+background: black;
+}
+.my-contact, .my-contact:visited{
+    font-size: initial;
+    color:white;
+}
+.my-contact:hover{
+    font-weight: 700;
+    text-decoration: none;
+}
+.slide-btn:hover{
+    text-decoration: none;
+}

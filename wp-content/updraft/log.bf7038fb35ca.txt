@@ -1,0 +1,297 @@
+0000.000 (0) Opened log file at time: Thu, 25 Feb 2016 12:23:55 +0000 on http://localhost/Savoie%20Volailles
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 7.0.0 (Darwin flavios-macbook-pro.home 15.3.0 Darwin Kernel Version 15.3.0: Thu Dec 10 18:40:58 PST 2015; root:xnu-3248.30.4~1/RELEASE_X86_64 x86_64) MySQL: 5.5.42 Server: Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/7.0.0 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.1M | 4M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 159168.1 Mb
+0000.007 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.014 (0) Set semaphore last lock (fd) time to 2016-02-25 12:23:55
+0000.015 (0) Semaphore lock (fd) complete
+0000.019 (0) Backup run: resumption=0, nonce=bf7038fb35ca, begun at=1456403035 (0s ago), job type=backup
+0000.021 (0) Scheduling a resumption (1) after 300 seconds (1456403335) in case this run gets aborted
+0000.034 (0) Checking if we have a zip executable available
+0000.035 (0) Testing: /usr/bin/zip
+0000.040 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.041 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.042 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.043 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.043 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.050 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.051 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.060 (0) Working binary zip found: /usr/bin/zip
+0000.062 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.062 (0) Creation of backups of directories: beginning
+0000.065 (0) Beginning creation of dump of plugins (split every: 400 Mb)
+0000.154 (0) Total entities for the zip file: 319 directories, 2225 files (0 skipped as non-modified), 35.2 Mb
+0000.157 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.160 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.162 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.164 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.167 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.168 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 Mb, 2225 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0000.602 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: size is now: 4.60 Mb
+0000.606 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 600 files added (on-disk size: 4722.1 Kb)
+0000.608 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 700 files added (on-disk size: 4722.1 Kb)
+0000.611 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 800 files added (on-disk size: 4722.1 Kb)
+0000.614 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 900 files added (on-disk size: 4722.1 Kb)
+0000.616 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1000 files added (on-disk size: 4722.1 Kb)
+0000.617 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.9 Mb, 2225 files batched, 501 (1002) added so far); re-opening (prior size: 4722.1 Kb)
+0001.422 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: size is now: 8.70 Mb
+0001.427 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1100 files added (on-disk size: 8894.8 Kb)
+0001.430 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1200 files added (on-disk size: 8894.8 Kb)
+0001.434 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1300 files added (on-disk size: 8894.8 Kb)
+0001.437 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1400 files added (on-disk size: 8894.8 Kb)
+0001.440 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1500 files added (on-disk size: 8894.8 Kb)
+0001.442 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 Mb, 2225 files batched, 501 (1503) added so far); re-opening (prior size: 8894.8 Kb)
+0001.657 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1600 files added (on-disk size: 10398.6 Kb)
+0001.661 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1700 files added (on-disk size: 10398.6 Kb)
+0001.663 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1800 files added (on-disk size: 10398.6 Kb)
+0001.666 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 1900 files added (on-disk size: 10398.6 Kb)
+0001.669 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 2000 files added (on-disk size: 10398.6 Kb)
+0001.670 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 Mb, 2225 files batched, 501 (2004) added so far); re-opening (prior size: 10398.6 Kb)
+0002.013 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 2100 files added (on-disk size: 11941.1 Kb)
+0002.017 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip.tmp: 2200 files added (on-disk size: 11941.1 Kb)
+0002.335 (0) Created plugins zip (0) - 13481.2 Kb in 2.3 s (5943.3 Kb/s) (SHA1 checksum: 28b5a2a9b45f30aec048272d0d68b4c27c6f2864)
+0002.337 (0) Beginning creation of dump of themes (split every: 400 Mb)
+0002.462 (0) Total entities for the zip file: 248 directories, 4116 files (0 skipped as non-modified), 109.2 Mb
+0002.465 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0002.468 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0002.471 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0002.474 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0002.478 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0002.478 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.3 Mb, 4116 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0002.974 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: size is now: 7.60 Mb
+0002.978 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 600 files added (on-disk size: 7777.7 Kb)
+0002.981 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 700 files added (on-disk size: 7777.7 Kb)
+0002.983 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 800 files added (on-disk size: 7777.7 Kb)
+0002.986 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 900 files added (on-disk size: 7777.7 Kb)
+0002.988 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1000 files added (on-disk size: 7777.7 Kb)
+0002.989 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 Mb, 4116 files batched, 501 (1002) added so far); re-opening (prior size: 7777.7 Kb)
+0003.193 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1100 files added (on-disk size: 8700.3 Kb)
+0003.195 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1200 files added (on-disk size: 8700.3 Kb)
+0003.198 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1300 files added (on-disk size: 8700.3 Kb)
+0003.201 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1400 files added (on-disk size: 8700.3 Kb)
+0003.203 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1500 files added (on-disk size: 8700.3 Kb)
+0003.204 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 Mb, 4116 files batched, 501 (1503) added so far); re-opening (prior size: 8700.3 Kb)
+0003.377 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1600 files added (on-disk size: 9532.1 Kb)
+0003.380 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1700 files added (on-disk size: 9532.1 Kb)
+0003.382 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1800 files added (on-disk size: 9532.1 Kb)
+0003.385 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 1900 files added (on-disk size: 9532.1 Kb)
+0003.387 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2000 files added (on-disk size: 9532.1 Kb)
+0003.388 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 Mb, 4116 files batched, 501 (2004) added so far); re-opening (prior size: 9532.1 Kb)
+0003.580 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2100 files added (on-disk size: 10443.2 Kb)
+0003.582 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2200 files added (on-disk size: 10443.2 Kb)
+0003.585 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2300 files added (on-disk size: 10443.2 Kb)
+0003.588 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2400 files added (on-disk size: 10443.2 Kb)
+0003.590 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2500 files added (on-disk size: 10443.2 Kb)
+0003.591 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 Mb, 4116 files batched, 501 (2505) added so far); re-opening (prior size: 10443.2 Kb)
+0003.791 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2600 files added (on-disk size: 11482.5 Kb)
+0003.794 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2700 files added (on-disk size: 11482.5 Kb)
+0003.797 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2800 files added (on-disk size: 11482.5 Kb)
+0003.799 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 2900 files added (on-disk size: 11482.5 Kb)
+0003.802 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3000 files added (on-disk size: 11482.5 Kb)
+0003.803 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 Mb, 4116 files batched, 501 (3006) added so far); re-opening (prior size: 11482.5 Kb)
+0003.987 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3100 files added (on-disk size: 12371.4 Kb)
+0003.991 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3200 files added (on-disk size: 12371.4 Kb)
+0003.994 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3300 files added (on-disk size: 12371.4 Kb)
+0003.996 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3400 files added (on-disk size: 12371.4 Kb)
+0003.999 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3500 files added (on-disk size: 12371.4 Kb)
+0004.000 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 Mb, 4116 files batched, 501 (3507) added so far); re-opening (prior size: 12371.4 Kb)
+0004.279 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: size is now: 19.60 Mb
+0004.283 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3600 files added (on-disk size: 20028.4 Kb)
+0004.286 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (30.3 Mb, 4116 files batched, 176 (3683) added so far); re-opening (prior size: 20028.4 Kb)
+0004.629 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: size is now: 49.90 Mb
+0004.632 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.1 s, rate: 24343.9 Kb/s)
+0004.633 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.27338910103, normalised_time=1.0515992714, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=149568760)
+0004.636 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3700 files added (on-disk size: 51084.1 Kb)
+0004.643 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3800 files added (on-disk size: 51084.1 Kb)
+0004.645 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 3900 files added (on-disk size: 51084.1 Kb)
+0004.648 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 4000 files added (on-disk size: 51084.1 Kb)
+0004.651 (0) Zip: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: 4100 files added (on-disk size: 51084.1 Kb)
+0005.493 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip.tmp: size is now: 89.60 Mb
+0006.083 (0) Created themes zip (0) - 91731.8 Kb in 3.7 s (24497.2 Kb/s) (SHA1 checksum: 917e1f93a8ac2fda7e7613ff2967599df8a841b2)
+0006.086 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0006.086 (0) Looking for candidates to back up in: /Users/Flavio/Documents/Projects/Wordpress/Savoie Volailles/wp-content/uploads
+0006.087 (0) finding files: 2016: adding to list (1)
+0006.088 (0) Beginning creation of dump of uploads (split every: 400 Mb)
+0006.092 (0) Total entities for the zip file: 2 directories, 21 files (0 skipped as non-modified), 1.3 Mb
+0006.112 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-uploads.zip.tmp: size is now: 1.30 Mb
+0006.123 (0) Created uploads zip (0) - 1296.3 Kb in 0 s (38215.3 Kb/s) (SHA1 checksum: 4cb0c6b9f61e70ece38637ed68e736d9a9cc8ac3)
+0006.127 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.128 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.129 (0) Looking for candidates to back up in: /Users/Flavio/Documents/Projects/Wordpress/Savoie Volailles/wp-content
+0006.129 (0) finding files: .DS_Store: adding to list (1)
+0006.130 (0) finding files: advanced-cache.php: adding to list (2)
+0006.131 (0) finding files: cache: skipping: excluded by options
+0006.131 (0) finding files: index.php: adding to list (3)
+0006.132 (0) finding files: plugins: skipping: this is the plugins directory
+0006.133 (0) finding files: themes: skipping: this is the themes directory
+0006.134 (0) finding files: updraft: skipping: this is the updraft directory
+0006.134 (0) finding files: upgrade: skipping: excluded by options
+0006.135 (0) finding files: uploads: skipping: this is the uploads directory
+0006.136 (0) finding files: w3tc-config: adding to list (4)
+0006.140 (0) Total entities for the zip file: 1 directories, 6 files (0 skipped as non-modified), 0 Mb
+0006.148 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-others.zip.tmp: size is now: 0.00 Mb
+0006.152 (0) Created others zip (0) - 7.3 Kb in 0 s (500 Kb/s) (SHA1 checksum: 49436d573c3fb7822dd367ba65f4b6d614124957)
+0006.156 (0) Saving backup status to database (elements: 8)
+0006.158 (0) Beginning creation of database dump (WordPress DB)
+0006.171 (0) Table db_wp_sv_options: Total expected rows (approximate): 163
+0006.217 (0) Table db_wp_sv_options: Total rows added: 258 in 0.05 seconds
+0006.219 (0) Table db_wp_sv_options: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_options.table.gz - 115.9 Kb)
+0006.222 (0) Table db_wp_sv_users: Total expected rows (approximate): 2
+0006.225 (0) Table db_wp_sv_users: Total rows added: 2 in 0.00 seconds
+0006.226 (0) Table db_wp_sv_users: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_users.table.gz - 0.6 Kb)
+0006.229 (0) Table db_wp_sv_usermeta: Total expected rows (approximate): 41
+0006.231 (0) Table db_wp_sv_usermeta: Total rows added: 41 in 0.00 seconds
+0006.233 (0) Table db_wp_sv_usermeta: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_usermeta.table.gz - 1.5 Kb)
+0006.236 (0) Table db_wp_sv_commentmeta: Total expected rows (approximate): 2
+0006.238 (0) Table db_wp_sv_commentmeta: Total rows added: 2 in 0.00 seconds
+0006.240 (0) Table db_wp_sv_commentmeta: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_commentmeta.table.gz - 0.4 Kb)
+0006.243 (0) Table db_wp_sv_comments: Total expected rows (approximate): 1
+0006.246 (0) Table db_wp_sv_comments: Total rows added: 1 in 0.00 seconds
+0006.247 (0) Table db_wp_sv_comments: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_comments.table.gz - 0.7 Kb)
+0006.250 (0) Table db_wp_sv_links: Total expected rows (approximate): 0
+0006.252 (0) Table db_wp_sv_links: Total rows added: 0 in 0.00 seconds
+0006.254 (0) Table db_wp_sv_links: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_links.table.gz - 0.4 Kb)
+0006.258 (0) Table db_wp_sv_postmeta: Total expected rows (approximate): 932
+0006.270 (0) Table db_wp_sv_postmeta: Total rows added: 761 in 0.01 seconds
+0006.273 (0) Table db_wp_sv_postmeta: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_postmeta.table.gz - 9.1 Kb)
+0006.276 (0) Table db_wp_sv_posts: Total expected rows (approximate): 114
+0006.288 (0) Table db_wp_sv_posts: Total rows added: 163 in 0.01 seconds
+0006.291 (0) Table db_wp_sv_posts: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_posts.table.gz - 8 Kb)
+0006.294 (0) Table db_wp_sv_term_relationships: Total expected rows (approximate): 3
+0006.297 (0) Table db_wp_sv_term_relationships: Total rows added: 3 in 0.00 seconds
+0006.298 (0) Table db_wp_sv_term_relationships: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_term_relationships.table.gz - 0.4 Kb)
+0006.301 (0) Table db_wp_sv_term_taxonomy: Total expected rows (approximate): 2
+0006.303 (0) Table db_wp_sv_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0006.305 (0) Table db_wp_sv_term_taxonomy: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_term_taxonomy.table.gz - 0.4 Kb)
+0006.308 (0) Table db_wp_sv_termmeta: Total expected rows (approximate): 0
+0006.310 (0) Table db_wp_sv_termmeta: Total rows added: 0 in 0.00 seconds
+0006.311 (0) Table db_wp_sv_termmeta: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_termmeta.table.gz - 0.4 Kb)
+0006.315 (0) Table db_wp_sv_terms: Total expected rows (approximate): 2
+0006.317 (0) Table db_wp_sv_terms: Total rows added: 2 in 0.00 seconds
+0006.318 (0) Table db_wp_sv_terms: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_terms.table.gz - 0.4 Kb)
+0006.321 (0) Table db_wp_sv_wfBadLeechers: Total expected rows (approximate): 0
+0006.323 (0) Table db_wp_sv_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0006.324 (0) Table db_wp_sv_wfBadLeechers: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfBadLeechers.table.gz - 0.3 Kb)
+0006.327 (0) Table db_wp_sv_wfBlockedIPLog: Total expected rows (approximate): 0
+0006.329 (0) Table db_wp_sv_wfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0006.330 (0) Table db_wp_sv_wfBlockedIPLog: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfBlockedIPLog.table.gz - 0.3 Kb)
+0006.334 (0) Table db_wp_sv_wfBlocks: Total expected rows (approximate): 0
+0006.337 (0) Table db_wp_sv_wfBlocks: Total rows added: 0 in 0.00 seconds
+0006.339 (0) Table db_wp_sv_wfBlocks: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfBlocks.table.gz - 0.4 Kb)
+0006.342 (0) Table db_wp_sv_wfBlocksAdv: Total expected rows (approximate): 0
+0006.344 (0) Table db_wp_sv_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0006.345 (0) Table db_wp_sv_wfBlocksAdv: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfBlocksAdv.table.gz - 0.3 Kb)
+0006.349 (0) Table db_wp_sv_wfConfig: Total expected rows (approximate): 114
+0006.352 (0) Table db_wp_sv_wfConfig: Total rows added: 114 in 0.00 seconds
+0006.353 (0) Table db_wp_sv_wfConfig: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfConfig.table.gz - 2 Kb)
+0006.356 (0) Table db_wp_sv_wfCrawlers: Total expected rows (approximate): 0
+0006.359 (0) Table db_wp_sv_wfCrawlers: Total rows added: 0 in 0.00 seconds
+0006.360 (0) Table db_wp_sv_wfCrawlers: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfCrawlers.table.gz - 0.3 Kb)
+0006.363 (0) Table db_wp_sv_wfFileMods: Total expected rows (approximate): 5409
+0006.520 (0) Table db_wp_sv_wfFileMods: Total rows added: 6410 in 0.16 seconds
+0006.523 (0) Table db_wp_sv_wfFileMods: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfFileMods.table.gz - 310.6 Kb)
+0006.526 (0) Table db_wp_sv_wfHits: Total expected rows (approximate): 0
+0006.528 (0) Table db_wp_sv_wfHits: Total rows added: 0 in 0.00 seconds
+0006.530 (0) Table db_wp_sv_wfHits: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfHits.table.gz - 0.4 Kb)
+0006.533 (0) Table db_wp_sv_wfHoover: Total expected rows (approximate): 0
+0006.535 (0) Table db_wp_sv_wfHoover: Total rows added: 0 in 0.00 seconds
+0006.538 (0) Table db_wp_sv_wfHoover: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfHoover.table.gz - 0.3 Kb)
+0006.541 (0) Table db_wp_sv_wfIssues: Total expected rows (approximate): 0
+0006.543 (0) Table db_wp_sv_wfIssues: Total rows added: 0 in 0.00 seconds
+0006.544 (0) Table db_wp_sv_wfIssues: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfIssues.table.gz - 0.4 Kb)
+0006.547 (0) Table db_wp_sv_wfLeechers: Total expected rows (approximate): 0
+0006.549 (0) Table db_wp_sv_wfLeechers: Total rows added: 0 in 0.00 seconds
+0006.551 (0) Table db_wp_sv_wfLeechers: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfLeechers.table.gz - 0.3 Kb)
+0006.554 (0) Table db_wp_sv_wfLockedOut: Total expected rows (approximate): 0
+0006.556 (0) Table db_wp_sv_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0006.558 (0) Table db_wp_sv_wfLockedOut: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfLockedOut.table.gz - 0.3 Kb)
+0006.561 (0) Table db_wp_sv_wfLocs: Total expected rows (approximate): 0
+0006.564 (0) Table db_wp_sv_wfLocs: Total rows added: 0 in 0.00 seconds
+0006.565 (0) Table db_wp_sv_wfLocs: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfLocs.table.gz - 0.4 Kb)
+0006.568 (0) Table db_wp_sv_wfLogins: Total expected rows (approximate): 0
+0006.571 (0) Table db_wp_sv_wfLogins: Total rows added: 0 in 0.00 seconds
+0006.572 (0) Table db_wp_sv_wfLogins: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfLogins.table.gz - 0.4 Kb)
+0006.576 (0) Table db_wp_sv_wfNet404s: Total expected rows (approximate): 0
+0006.578 (0) Table db_wp_sv_wfNet404s: Total rows added: 0 in 0.00 seconds
+0006.579 (0) Table db_wp_sv_wfNet404s: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfNet404s.table.gz - 0.3 Kb)
+0006.582 (0) Table db_wp_sv_wfReverseCache: Total expected rows (approximate): 0
+0006.584 (0) Table db_wp_sv_wfReverseCache: Total rows added: 0 in 0.00 seconds
+0006.587 (0) Table db_wp_sv_wfReverseCache: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfReverseCache.table.gz - 0.3 Kb)
+0006.590 (0) Table db_wp_sv_wfScanners: Total expected rows (approximate): 0
+0006.592 (0) Table db_wp_sv_wfScanners: Total rows added: 0 in 0.00 seconds
+0006.594 (0) Table db_wp_sv_wfScanners: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfScanners.table.gz - 0.3 Kb)
+0006.597 (0) Table db_wp_sv_wfStatus: Total expected rows (approximate): 126
+0006.601 (0) Table db_wp_sv_wfStatus: Total rows added: 126 in 0.00 seconds
+0006.602 (0) Table db_wp_sv_wfStatus: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfStatus.table.gz - 3 Kb)
+0006.606 (0) Table db_wp_sv_wfThrottleLog: Total expected rows (approximate): 0
+0006.608 (0) Table db_wp_sv_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0006.609 (0) Table db_wp_sv_wfThrottleLog: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfThrottleLog.table.gz - 0.3 Kb)
+0006.612 (0) Table db_wp_sv_wfVulnScanners: Total expected rows (approximate): 0
+0006.615 (0) Table db_wp_sv_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0006.616 (0) Table db_wp_sv_wfVulnScanners: finishing file (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfVulnScanners.table.gz - 0.3 Kb)
+0006.619 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_options.table.gz (1/32): adding to final database dump
+0006.663 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_users.table.gz (2/32): adding to final database dump
+0006.665 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_usermeta.table.gz (3/32): adding to final database dump
+0006.667 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_commentmeta.table.gz (4/32): adding to final database dump
+0006.668 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_comments.table.gz (5/32): adding to final database dump
+0006.669 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_links.table.gz (6/32): adding to final database dump
+0006.671 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_postmeta.table.gz (7/32): adding to final database dump
+0006.676 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_posts.table.gz (8/32): adding to final database dump
+0006.682 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_term_relationships.table.gz (9/32): adding to final database dump
+0006.683 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_term_taxonomy.table.gz (10/32): adding to final database dump
+0006.684 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_termmeta.table.gz (11/32): adding to final database dump
+0006.685 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_terms.table.gz (12/32): adding to final database dump
+0006.686 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfBadLeechers.table.gz (13/32): adding to final database dump
+0006.686 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfBlockedIPLog.table.gz (14/32): adding to final database dump
+0006.687 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfBlocks.table.gz (15/32): adding to final database dump
+0006.688 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfBlocksAdv.table.gz (16/32): adding to final database dump
+0006.688 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfConfig.table.gz (17/32): adding to final database dump
+0006.690 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfCrawlers.table.gz (18/32): adding to final database dump
+0006.691 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfFileMods.table.gz (19/32): adding to final database dump
+0006.782 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfHits.table.gz (20/32): adding to final database dump
+0006.784 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfHoover.table.gz (21/32): adding to final database dump
+0006.785 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfIssues.table.gz (22/32): adding to final database dump
+0006.785 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfLeechers.table.gz (23/32): adding to final database dump
+0006.786 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfLockedOut.table.gz (24/32): adding to final database dump
+0006.787 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfLocs.table.gz (25/32): adding to final database dump
+0006.787 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfLogins.table.gz (26/32): adding to final database dump
+0006.788 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfNet404s.table.gz (27/32): adding to final database dump
+0006.789 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfReverseCache.table.gz (28/32): adding to final database dump
+0006.790 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfScanners.table.gz (29/32): adding to final database dump
+0006.790 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfStatus.table.gz (30/32): adding to final database dump
+0006.792 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfThrottleLog.table.gz (31/32): adding to final database dump
+0006.793 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db-table-db_wp_sv_wfVulnScanners.table.gz (32/32): adding to final database dump
+0006.794 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db.gz: finished writing out complete database file (432 Kb)
+0006.802 (0) Total database tables backed up: 32 (backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db.gz, size: 463740, checksum (SHA1): adba184d099aecb2f7eb7a0758af1ed24a144dc1)
+0006.806 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.807 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.808 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.809 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.809 (0) backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.810 (0) Saving backup history. Total backup size: 104.5 Mb
+0006.812 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.814 (0) Cloud backup selection (1/1): none (last)
+0006.815 (0) No remote despatch: user chose no remote backup service
+0006.816 (0) Recording as successfully uploaded: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-plugins.zip (3c8bc2ec0df9451cbe8eb8fd795d350c)
+0006.820 (0) Recording as successfully uploaded: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-themes.zip (3f85a08fecd761603dc4a0e87902919d)
+0006.824 (0) Recording as successfully uploaded: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-uploads.zip (c97233fa5497fe922d0deab759d41e15)
+0006.827 (0) Recording as successfully uploaded: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-others.zip (3362100ea5dd1da1defdabbbbf25973e)
+0006.830 (0) Recording as successfully uploaded: backup_2016-02-25-1323_Savoie_Volailles_Pernoud_bf7038fb35ca-db.gz (48169204232002c15e96b85a8537ca13)
+0006.834 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.835 (0) Number of backup sets in history: 1; groups (db): 1
+0006.836 (0) Examining (for databases) backup set with group_id=0, nonce=bf7038fb35ca, datestamp=1456403035 (Feb 25 2016 12:23:55)
+0006.837 (0) This backup set is the backup set just made, so will not be deleted.
+0006.837 (0) Number of backup sets in history: 1; groups (files): 1
+0006.838 (0) Examining (for files) backup set with nonce=bf7038fb35ca, datestamp=1456403035 (Feb 25 2016 12:23:55)
+0006.838 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0006.839 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0006.839 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0006.839 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0006.839 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.840 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0006.842 (0) Resume backup (bf7038fb35ca, 0): finish run
+0006.843 (0) Decremented the semaphore (fd) by 1
+0006.844 (0) Semaphore (fd) unlocked
+0006.845 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.848 (0) No email will/can be sent - the user has not configured an email address.
+0006.848 (0) The backup apparently succeeded and is now complete
